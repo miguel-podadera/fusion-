@@ -19,6 +19,7 @@ class CreateTicketsTable extends Migration
 
             $table->bigInteger('list_id')->unsigned();
             $table->bigInteger('user_id')->unsigned();
+            $table->string('name', 60);
 
 
 
